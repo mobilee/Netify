@@ -1,5 +1,5 @@
 <p align="center">
-   <img width="200" src="https://raw.githubusercontent.com/SvenTiigi/SwiftKit/gh-pages/readMeAssets/SwiftKitLogo.png" alt="Netify Logo">
+   <img src="Logo.png" width="600" max-width="90%" alt="Netify Logo">
 </p>
 
 <p align="center">
@@ -23,12 +23,18 @@
 # Netify
 
 <p align="center">
-ℹ️ Short description of Netify
+🌎 Simple Network for iOS
 </p>
+
+Simplify API layer implementation. 
+
+Separate API configuration from execution.
 
 ## Features
 
-- [x] ℹ️ Add Netify features
+- 📙 Declare network endpoints with ease
+- 🪄 Execute requests with 1 line
+- ⛓ Integration with Alamofire
 
 ## Example
 
