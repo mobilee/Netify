@@ -5,7 +5,7 @@ import PackageDescription
 let package = Package(
     name: "Netify",
     platforms: [
-        .iOS(.v9)
+        .iOS(.v10)
     ],
     products: [
         .library(
