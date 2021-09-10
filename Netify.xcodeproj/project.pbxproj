@@ -22,6 +22,9 @@
 		371AFBC626EBE1500072637F /* ParameterEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371AFBC526EBE1500072637F /* ParameterEncoder.swift */; };
 		371AFBC826EBE1FA0072637F /* URLRequest+encode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371AFBC726EBE1FA0072637F /* URLRequest+encode.swift */; };
 		371AFBCC26EBEED90072637F /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 371AFBCB26EBEED90072637F /* Alamofire */; };
+		371AFBD126EBEFFF0072637F /* KeyPathPreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371AFBCE26EBEFFF0072637F /* KeyPathPreprocessor.swift */; };
+		371AFBD226EBEFFF0072637F /* EmptyResult+EmptyResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371AFBCF26EBEFFF0072637F /* EmptyResult+EmptyResponse.swift */; };
+		371AFBD326EBEFFF0072637F /* AlamofireClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371AFBD026EBEFFF0072637F /* AlamofireClient.swift */; };
 		3D9C42A222745900000A6585 /* Netify.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9C42A122745900000A6585 /* Netify.swift */; };
 		3D9C42F62274604A000A6585 /* Netify.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D9C429022745894000A6585 /* Netify.framework */; };
 		3D9C42FC22746078000A6585 /* NetifyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9C42D722745CDE000A6585 /* NetifyTests.swift */; };
@@ -79,6 +82,9 @@
 		371AFBC126EBE10E0072637F /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 		371AFBC526EBE1500072637F /* ParameterEncoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParameterEncoder.swift; sourceTree = "<group>"; };
 		371AFBC726EBE1FA0072637F /* URLRequest+encode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URLRequest+encode.swift"; sourceTree = "<group>"; };
+		371AFBCE26EBEFFF0072637F /* KeyPathPreprocessor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyPathPreprocessor.swift; sourceTree = "<group>"; };
+		371AFBCF26EBEFFF0072637F /* EmptyResult+EmptyResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "EmptyResult+EmptyResponse.swift"; sourceTree = "<group>"; };
+		371AFBD026EBEFFF0072637F /* AlamofireClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlamofireClient.swift; sourceTree = "<group>"; };
 		3747173526EBB8D80024A4C3 /* Gemfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Gemfile; sourceTree = SOURCE_ROOT; };
 		3D9C429022745894000A6585 /* Netify.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Netify.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D9C429C227458E8000A6585 /* Netify.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Netify.plist; sourceTree = "<group>"; };
@@ -156,6 +162,16 @@
 			path = Endpoint;
 			sourceTree = "<group>";
 		};
+		371AFBCD26EBEFE00072637F /* AlamofirePlugin */ = {
+			isa = PBXGroup;
+			children = (
+				371AFBD026EBEFFF0072637F /* AlamofireClient.swift */,
+				371AFBCF26EBEFFF0072637F /* EmptyResult+EmptyResponse.swift */,
+				371AFBCE26EBEFFF0072637F /* KeyPathPreprocessor.swift */,
+			);
+			path = AlamofirePlugin;
+			sourceTree = "<group>";
+		};
 		3D9C428622745894000A6585 = {
 			isa = PBXGroup;
 			children = (
@@ -203,6 +219,7 @@
 		3D9C42A0227458FA000A6585 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				371AFBCD26EBEFE00072637F /* AlamofirePlugin */,
 				371AFBC926EBEBBC0072637F /* Endpoint */,
 				371AFBBE26EBE0630072637F /* ParametersEncoding */,
 				3D9C42A122745900000A6585 /* Netify.swift */,
@@ -417,7 +434,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				371AFBB526EBDF9B0072637F /* Data+prettyString.swift in Sources */,
+				371AFBD326EBEFFF0072637F /* AlamofireClient.swift in Sources */,
+				371AFBD126EBEFFF0072637F /* KeyPathPreprocessor.swift in Sources */,
 				371AFBBC26EBDF9B0072637F /* HTTPMethod.swift in Sources */,
+				371AFBD226EBEFFF0072637F /* EmptyResult+EmptyResponse.swift in Sources */,
 				371AFBC626EBE1500072637F /* ParameterEncoder.swift in Sources */,
 				371AFBB426EBDF9B0072637F /* HTTPTask.swift in Sources */,
 				371AFBA526EBDF500072637F /* Types.swift in Sources */,
