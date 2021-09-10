@@ -9,19 +9,19 @@
 import Alamofire
 import Foundation
 
-class AlamofireClient: APIClient {
+public class AlamofireClient: APIClient {
 
-    internal static let queueName: String = "alamofire.client.network.queue"
+    public static let queueName: String = "alamofire.client.network.queue"
 
     /**
      Show logs if yes. Default set as *true*. Logging works only in debug mode.
      */
-    var showLogs: Bool = true
+    public var showLogs: Bool = true
     let manager: Alamofire.Session
     public let decoder: JSONDecoder = JSONDecoder() // consider to delete?
     public let queue: DispatchQueue
     
-    init() {
+    public init() {
         let conf = URLSessionConfiguration.default
         conf.timeoutIntervalForResource = 40.0
         
@@ -34,7 +34,7 @@ class AlamofireClient: APIClient {
     }
     
     @discardableResult
-    func executeRequest<T: Endpoint>(route: T, completion: @escaping T.Completion) -> DataRequest {
+    public func executeRequest<T: Endpoint>(route: T, completion: @escaping T.Completion) -> DataRequest {
         
         var preprocessor: DataPreprocessor
         if let keyPath = route.keyPath {

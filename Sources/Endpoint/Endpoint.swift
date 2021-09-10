@@ -28,7 +28,7 @@ public protocol Endpoint: CustomDebugStringConvertible {
     func buildURLRequest() throws -> URLRequest
 }
 
-extension Endpoint {
+public extension Endpoint {
     
     var method: HTTPMethod {
         return .get

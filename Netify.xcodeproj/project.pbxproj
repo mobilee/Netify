@@ -25,6 +25,10 @@
 		371AFBD126EBEFFF0072637F /* KeyPathPreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371AFBCE26EBEFFF0072637F /* KeyPathPreprocessor.swift */; };
 		371AFBD226EBEFFF0072637F /* EmptyResult+EmptyResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371AFBCF26EBEFFF0072637F /* EmptyResult+EmptyResponse.swift */; };
 		371AFBD326EBEFFF0072637F /* AlamofireClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371AFBD026EBEFFF0072637F /* AlamofireClient.swift */; };
+		371AFBD626EBF3B30072637F /* GenderResponseDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371AFBD526EBF3B30072637F /* GenderResponseDTO.swift */; };
+		371AFBD826EBF4040072637F /* GenderizerEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371AFBD726EBF4040072637F /* GenderizerEndpoint.swift */; };
+		371AFBDA26EBF92A0072637F /* GenderizerAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371AFBD926EBF92A0072637F /* GenderizerAPI.swift */; };
+		3782B0FA26EBFA9800640D8A /* NetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3782B0F926EBFA9800640D8A /* NetworkClient.swift */; };
 		3D9C42A222745900000A6585 /* Netify.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9C42A122745900000A6585 /* Netify.swift */; };
 		3D9C42F62274604A000A6585 /* Netify.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D9C429022745894000A6585 /* Netify.framework */; };
 		3D9C42FC22746078000A6585 /* NetifyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9C42D722745CDE000A6585 /* NetifyTests.swift */; };
@@ -85,7 +89,11 @@
 		371AFBCE26EBEFFF0072637F /* KeyPathPreprocessor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyPathPreprocessor.swift; sourceTree = "<group>"; };
 		371AFBCF26EBEFFF0072637F /* EmptyResult+EmptyResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "EmptyResult+EmptyResponse.swift"; sourceTree = "<group>"; };
 		371AFBD026EBEFFF0072637F /* AlamofireClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlamofireClient.swift; sourceTree = "<group>"; };
+		371AFBD526EBF3B30072637F /* GenderResponseDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenderResponseDTO.swift; sourceTree = "<group>"; };
+		371AFBD726EBF4040072637F /* GenderizerEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenderizerEndpoint.swift; sourceTree = "<group>"; };
+		371AFBD926EBF92A0072637F /* GenderizerAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenderizerAPI.swift; sourceTree = "<group>"; };
 		3747173526EBB8D80024A4C3 /* Gemfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Gemfile; sourceTree = SOURCE_ROOT; };
+		3782B0F926EBFA9800640D8A /* NetworkClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkClient.swift; sourceTree = "<group>"; };
 		3D9C429022745894000A6585 /* Netify.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Netify.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D9C429C227458E8000A6585 /* Netify.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Netify.plist; sourceTree = "<group>"; };
 		3D9C429D227458E8000A6585 /* NetifyTests.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = NetifyTests.plist; sourceTree = "<group>"; };
@@ -172,6 +180,17 @@
 			path = AlamofirePlugin;
 			sourceTree = "<group>";
 		};
+		371AFBD426EBF3560072637F /* DemoGenderize */ = {
+			isa = PBXGroup;
+			children = (
+				371AFBD526EBF3B30072637F /* GenderResponseDTO.swift */,
+				371AFBD726EBF4040072637F /* GenderizerEndpoint.swift */,
+				371AFBD926EBF92A0072637F /* GenderizerAPI.swift */,
+				3782B0F926EBFA9800640D8A /* NetworkClient.swift */,
+			);
+			path = DemoGenderize;
+			sourceTree = "<group>";
+		};
 		3D9C428622745894000A6585 = {
 			isa = PBXGroup;
 			children = (
@@ -247,6 +266,7 @@
 		3D9C43222274629B000A6585 /* Example */ = {
 			isa = PBXGroup;
 			children = (
+				371AFBD426EBF3560072637F /* DemoGenderize */,
 				3D9C43232274629B000A6585 /* AppDelegate.swift */,
 				3D9C43252274629B000A6585 /* ViewController.swift */,
 				3D9C4333227462B9000A6585 /* Resources */,
@@ -466,8 +486,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				371AFBD626EBF3B30072637F /* GenderResponseDTO.swift in Sources */,
+				371AFBDA26EBF92A0072637F /* GenderizerAPI.swift in Sources */,
 				3D9C43262274629B000A6585 /* ViewController.swift in Sources */,
 				3D9C43242274629B000A6585 /* AppDelegate.swift in Sources */,
+				371AFBD826EBF4040072637F /* GenderizerEndpoint.swift in Sources */,
+				3782B0FA26EBFA9800640D8A /* NetworkClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
