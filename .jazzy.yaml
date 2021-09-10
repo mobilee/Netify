@@ -1,0 +1,7 @@
+# Netify document generator jazzy settings
+
+copyright: Copyright 2021 Mobilee
+author: Łukasz Szarkowicz
+xcodebuild_arguments: [-target, Netify-iOS]
+clean: true
+output: ./Documentation

@@ -1,0 +1,121 @@
+### macOS ###
+.DS_Store
+.AppleDouble
+.LSOverride
+
+
+# Icon must end with two \r
+Icon
+
+# Thumbnails
+._*
+
+# temp nibs and swap files
+*~.nib
+*.swp
+*.orig
+*-lock.*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+### Xcode ###
+
+## Build generated
+Build/
+build/
+DerivedData/
+.build/
+
+## User settings
+xcuserdata/
+*.xcuserdatad
+
+## compatibility with Xcode 8 and earlier (ignoring not required starting Xcode 9)
+*.xcscmblueprint
+*.xccheckout
+*.moved-aside
+*.xcuserstate
+
+## compatibility with Xcode 3 and earlier (ignoring not required starting Xcode 4)
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+
+### Xcode Patch ###
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+!*.xcodeproj/project.xcworkspace
+!*.xcworkspace/contents.xcworkspacedata
+**/xcshareddata/WorkspaceSettings.xcsettings
+/*.gcno
+
+## Obj-C/Swift specific
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+## Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+
+### Carthage ###
+# Add this line if you want to avoid checking in source code from Carthage dependencies.
+
+Carthage/Checkouts
+Carthage/Build
+
+### CocoaPods ###
+Pods/*
+
+### fastlane ###
+# fastlane - A streamlined workflow tool for Cocoa deployment
+# It is recommended to not store the screenshots in the git repo. Instead, use fastlane to re-generate the
+# screenshots whenever they are needed.
+# For more information about the recommended setup visit:
+# https://docs.fastlane.tools/best-practices/source-control/#source-control
+
+# fastlane specific
+fastlane/report.xml
+
+# deliver temporary files
+fastlane/Preview.html
+
+# snapshot generated screenshots
+fastlane/screenshots/**/*.png
+fastlane/screenshots/screenshots.html
+
+# scan temporary files
+fastlane/test_output
+
+# scan coverage output
+fastlane/xcov_output
+
+# Fastlane.swift runner binary
+fastlane/FastlaneRunner
+
+# fastlane builds
+fastlane/builds
+
+/reports
