@@ -16,7 +16,7 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "3D9C428F22745894000A6585"
                BuildableName = "Netify.framework"
-               BlueprintName = "Netify-iOS"
+               BlueprintName = "Netify"
                ReferencedContainer = "container:Netify.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -26,14 +26,22 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      codeCoverageEnabled = "YES"
-      shouldUseLaunchSchemeArgsEnv = "YES">
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      codeCoverageEnabled = "YES">
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "3D9C428F22745894000A6585"
+            BuildableName = "Netify.framework"
+            BlueprintName = "Netify"
+            ReferencedContainer = "container:Netify.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <Testables>
          <TestableReference
             skipped = "NO"
             parallelizable = "YES"
-            testExecutionOrdering = "random"
-            useTestSelectionWhitelist = "NO">
+            testExecutionOrdering = "random">
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "3D9C42F02274604A000A6585"
@@ -43,15 +51,6 @@
             </BuildableReference>
          </TestableReference>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "3D9C428F22745894000A6585"
-            BuildableName = "Netify.framework"
-            BlueprintName = "Netify-iOS"
-            ReferencedContainer = "container:Netify.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
    </TestAction>
    <LaunchAction
       buildConfiguration = "Debug"
@@ -68,7 +67,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3D9C428F22745894000A6585"
             BuildableName = "Netify.framework"
-            BlueprintName = "Netify-iOS"
+            BlueprintName = "Netify"
             ReferencedContainer = "container:Netify.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -84,7 +83,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3D9C428F22745894000A6585"
             BuildableName = "Netify.framework"
-            BlueprintName = "Netify-iOS"
+            BlueprintName = "Netify"
             ReferencedContainer = "container:Netify.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

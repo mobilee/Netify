@@ -72,15 +72,10 @@ platform :ios do
     # Perform iOS Tests
     scan(
       project: "Netify.xcodeproj",
-      scheme: "Netify-iOS",
+      scheme: "Netify",
       clean: true
     )
-    # Perform tvOS Tests
-    scan(
-      project: "Netify.xcodeproj",
-      scheme: "Netify-tvOS",
-      clean: true
-    )
+    
     # Perform macOS Tests
     spm(command: "test")
     # Delete SPM build artifacts

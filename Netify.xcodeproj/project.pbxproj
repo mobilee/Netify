@@ -200,9 +200,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		3D9C428F22745894000A6585 /* Netify-iOS */ = {
+		3D9C428F22745894000A6585 /* Netify */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3D9C429822745894000A6585 /* Build configuration list for PBXNativeTarget "Netify-iOS" */;
+			buildConfigurationList = 3D9C429822745894000A6585 /* Build configuration list for PBXNativeTarget "Netify" */;
 			buildPhases = (
 				3D9C428B22745894000A6585 /* Headers */,
 				3D9C428C22745894000A6585 /* Sources */,
@@ -214,7 +214,7 @@
 			);
 			dependencies = (
 			);
-			name = "Netify-iOS";
+			name = Netify;
 			productName = Netify;
 			productReference = 3D9C429022745894000A6585 /* Netify.framework */;
 			productType = "com.apple.product-type.framework";
@@ -291,7 +291,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3D9C428F22745894000A6585 /* Netify-iOS */,
+				3D9C428F22745894000A6585 /* Netify */,
 				3D9C42F02274604A000A6585 /* Netify-iOSTests */,
 				3D9C43202274629B000A6585 /* Example */,
 			);
@@ -376,12 +376,12 @@
 /* Begin PBXTargetDependency section */
 		3D9C42F82274604A000A6585 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3D9C428F22745894000A6585 /* Netify-iOS */;
+			target = 3D9C428F22745894000A6585 /* Netify */;
 			targetProxy = 3D9C42F72274604A000A6585 /* PBXContainerItemProxy */;
 		};
 		3D9C433722746323000A6585 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3D9C428F22745894000A6585 /* Netify-iOS */;
+			target = 3D9C428F22745894000A6585 /* Netify */;
 			targetProxy = 3D9C433622746323000A6585 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -546,7 +546,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "pl.mobilee.Netify-iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = pl.mobilee.Netify;
 				PRODUCT_NAME = Netify;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
@@ -576,7 +576,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "pl.mobilee.Netify-iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = pl.mobilee.Netify;
 				PRODUCT_NAME = Netify;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
@@ -634,7 +634,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "pl.mobilee.Netify-iOS.Example";
+				PRODUCT_BUNDLE_IDENTIFIER = pl.mobilee.Netify.Example;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
@@ -655,7 +655,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "pl.mobilee.Netify-iOS.Example";
+				PRODUCT_BUNDLE_IDENTIFIER = pl.mobilee.Netify.Example;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
@@ -675,7 +675,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3D9C429822745894000A6585 /* Build configuration list for PBXNativeTarget "Netify-iOS" */ = {
+		3D9C429822745894000A6585 /* Build configuration list for PBXNativeTarget "Netify" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3D9C429922745894000A6585 /* Debug */,
